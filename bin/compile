@@ -5,7 +5,7 @@ indent() {
 }
 
 echo "-----> Installing custom mysqlclientlib"
-gem install -i $1/vendor/bundle/ruby/2.7.0 mysql2 -v '0.5.3' -- --with-mysql-config=$1/.apt/usr/bin/mysql_config
+gem install -i $1/vendor/bundle/ruby/2.7.0 mysql2 -v '0.5.3' -- --with-mysql-dir=$1/.apt/usr/share/tolingo-mysqlclientlib
 echo "Done!" | indent
 
 exit 0
