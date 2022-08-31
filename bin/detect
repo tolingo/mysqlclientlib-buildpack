@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "tolingo-mysqlclientlib 5.7.39"
+exit 0
